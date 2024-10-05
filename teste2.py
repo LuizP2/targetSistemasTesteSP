@@ -1,11 +1,11 @@
 def fibonacci(x: int):
     numAnterior = 0
-    proxNum = 1
+    numAtual = 1
     soma = 1
     while soma < x:
-        soma = numAnterior + proxNum
-        numAnterior = proxNum
-        proxNum = soma
+        soma = numAnterior + numAtual # Soma o numero anterior ao atual
+        numAnterior = numAtual # Atualiza o valor do numero anterior
+        numAtual = soma # Atualiza o valor do numero atual
     if soma == x: 
         return "Seu número faz parte da sequência de Fibonacci"
     else:
