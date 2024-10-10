@@ -13,9 +13,9 @@ def percentual(Estado):
     return res
 
 print("-" * 70)
-print(f"o faturamento de São Paulo foi de {percentual(fatMensal["SP"]):.2f}%")
-print(f"o faturamento do Rio de Janeiro foi de {percentual(fatMensal["RJ"]):.2f}%")
-print(f"o faturamento de Mato Grosso foi de {percentual(fatMensal["MG"]):.2f}%")
-print(f"o faturamento de Espírito Santo foi de {percentual(fatMensal["ES"]):.2f}%")
-print(f"o faturamento dos outros estados foi de {percentual(fatMensal["outros"]):.2f}%") # Usei :.2f para formatar o numero em 2 casas decimais. Caso queiram o resultado completo, basta tirar estes caracteres do comando print.
+print(f'o faturamento de São Paulo foi de {percentual(fatMensal["SP"]):.2f}%')
+print(f'o faturamento do Rio de Janeiro foi de {percentual(fatMensal["RJ"]):.2f}%')
+print(f'o faturamento de Mato Grosso foi de {percentual(fatMensal["MG"]):.2f}%')
+print(f'o faturamento de Espírito Santo foi de {percentual(fatMensal["ES"]):.2f}%')
+print(f'o faturamento dos outros estados foi de {percentual(fatMensal["outros"]):.2f}%') # Usei :.2f para formatar o numero em 2 casas decimais. Caso queiram o resultado completo, basta tirar estes caracteres do comando print.
 print("-" * 70)
